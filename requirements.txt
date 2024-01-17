@@ -7,3 +7,4 @@ plotly==5.18.0
 ppscore==1.3.0
 pyreadstat==1.2.6
 scipy==1.11.4
+jupyterlab

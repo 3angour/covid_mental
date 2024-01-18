@@ -1,1 +1,1 @@
-web: sh setup.sh && panel serve --address="0.0.0.0" --port=$PORT test.ipynb --allow-websocket-origin=covid-mental.herokuapp.com
+web: sh setup.sh && panel serve --port=$PORT --no-browser --enable_nbextensions=True test.ipynb
